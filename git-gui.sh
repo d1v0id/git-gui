@@ -3174,7 +3174,7 @@ pack .branch -side top -fill x
 # -- Main Window Layout
 #
 ${NS}::panedwindow .vpane -orient horizontal
-${NS}::panedwindow .vpane.files -orient vertical
+${NS}::panedwindow .vpane.files -orient vertical -width 600
 if {$use_ttk} {
 	.vpane add .vpane.files
 } else {
